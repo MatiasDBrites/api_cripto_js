@@ -1,17 +1,17 @@
 * {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
-  background-image: url(./img/6.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: skyblue;
-  max-width: 100vw;
-} 
+    font-family: 'Lato', sans-serif;
+    background-image: url(./img/6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: skyblue;
+    max-width: 100vw;
+}
 
 .main-section {
     text-align: center;
@@ -25,15 +25,18 @@ body {
     text-transform: uppercase;
     color: black;
 }
+
 .container {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
+
 .container__form {
     width: 50%;
     margin-top: 2%;
 }
+
 .container__form form#form-search {
     display: flex;
     flex-direction: column;
@@ -64,7 +67,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
     color: goldenrod;
     background-color: #fff;
-    border: solid 2px  goldenrod;
+    border: solid 2px goldenrod;
 }
 
 .error {
